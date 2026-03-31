@@ -1,0 +1,20 @@
+{
+  "name": "hub-projeto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "functions-framework --target=helloHttp",
+    "check": "node --check index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@google-cloud/firestore": "^7.11.0",
+    "@google-cloud/functions-framework": "^3.4.0",
+    "@google-cloud/storage": "^7.16.0",
+    "@google-cloud/tasks": "^5.5.0",
+    "@google/genai": "^1.29.0",
+    "google-auth-library": "^9.14.1"
+  }
+}
